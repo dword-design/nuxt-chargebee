@@ -34,7 +34,7 @@
 <!-- /BADGES -->
 
 <!-- DESCRIPTION/ -->
-
+Chargebee module for Nuxt.js that allows to checkout and open the self-service portal inside a Nuxt.js app.
 <!-- /DESCRIPTION -->
 
 <!-- INSTALL/ -->
@@ -74,16 +74,37 @@ export default {
 }
 ```
 
-Then you can checkout in your components:
+Then you can checkout in your components or open the self-service portal:
 ```js
 export default {
+  props: {
+    ...
+  },
   methods: {
     checkout() {
       this.$chargebee.checkout('my-plan-id')
     },
+    portal() {
+      this.$chargebee.portal()
+    },
   },
 }
 ```
+
+## User Sessions
+
+It is possible to configure a session url. This url is used to create a session for checkout and the self-service portal:
+
+```js
+export default {
+  ...
+  modules: [
+    ['nuxt-chargebee', { siteName: 'my-site', sessionUrl: '/api/create-session' }],
+  ],
+}
+```
+
+More information on portal sessions can be found in the [Chargebee API docs](https://apidocs.chargebee.com/docs/api/portal_sessions).
 
 <!-- LICENSE/ -->
 ## License

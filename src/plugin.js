@@ -6,16 +6,20 @@ export default (context, inject) => {
     checkout: planName => {
       const cart = instance.getCart()
       const product = instance.initializeProduct(planName)
-      instance.setPortalSession(() =>
-        context.app.$axios.$get('/api/portal-session')
-      )
+      if (options.sessionUrl) {
+        instance.setPortalSession(() =>
+          context.app.$axios.$get(options.sessionUrl)
+        )
+      }
       cart.replaceProduct(product)
       cart.proceedToCheckout()
     },
     portal: () => {
-      instance.setPortalSession(() =>
-        context.app.$axios.$get('/api/portal-session')
-      )
+      if (options.sessionUrl) {
+        instance.setPortalSession(() =>
+          context.app.$axios.$get(options.sessionUrl)
+        )
+      }
       const cbPortal = instance.createChargebeePortal()
       cbPortal.open()
     },
