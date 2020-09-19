@@ -49,6 +49,42 @@ $ yarn add nuxt-chargebee
 ```
 <!-- /INSTALL -->
 
+## Usage
+
+Add the module to your Nuxt.js modules list in `nuxt.config.js`:
+```js
+export default {
+  ...
+  modules: [
+    ['nuxt-chargebee', { siteName: 'my-site' }],
+  ],
+}
+```
+
+Or use the top-level option:
+```js
+export default {
+  ...
+  modules: [
+    'nuxt-chargebee',
+  ],
+  chargebee: {
+    siteName: 'my-site',
+  },
+}
+```
+
+Then you can checkout in your components:
+```js
+export default {
+  methods: {
+    checkout() {
+      this.$chargebee.checkout('my-plan-id')
+    },
+  },
+}
+```
+
 <!-- LICENSE/ -->
 ## License
 
