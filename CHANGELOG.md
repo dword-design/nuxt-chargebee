@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/dword-design/nuxt-chargebee/compare/v1.0.1...v1.0.2) (2020-09-19)
+
+
+### Bug Fixes
+
+* make session url configurable ([5c6d79d](https://github.com/dword-design/nuxt-chargebee/commit/5c6d79d6d237c35ca1e42f05a4f716a88bb28f32))
+
 ## [1.0.1](https://github.com/dword-design/nuxt-chargebee/compare/v1.0.0...v1.0.1) (2020-09-19)
 
 
