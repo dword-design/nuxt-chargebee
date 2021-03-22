@@ -1,3 +1,11 @@
+## [1.0.4](https://github.com/dword-design/nuxt-chargebee/compare/v1.0.3...v1.0.4) (2021-03-22)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#8](https://github.com/dword-design/nuxt-chargebee/issues/8)) ([c5abd99](https://github.com/dword-design/nuxt-chargebee/commit/c5abd9986d978d8997fea6f455942c648211387b))
+* lock file maintenance ([#9](https://github.com/dword-design/nuxt-chargebee/issues/9)) ([2a12d95](https://github.com/dword-design/nuxt-chargebee/commit/2a12d9559feb72027d86b852cf43610b58dac5c6))
+
 ## [1.0.3](https://github.com/dword-design/nuxt-chargebee/compare/v1.0.2...v1.0.3) (2021-02-17)
 
 
