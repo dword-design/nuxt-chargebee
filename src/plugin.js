@@ -5,6 +5,7 @@ export default (context, inject) => {
   inject('chargebee', {
     checkout: planName => {
       const cart = instance.getCart()
+
       const product = instance.initializeProduct(planName)
       if (options.sessionUrl) {
         instance.setPortalSession(() =>
@@ -20,6 +21,7 @@ export default (context, inject) => {
           context.app.$axios.$get(options.sessionUrl)
         )
       }
+
       const cbPortal = instance.createChargebeePortal()
       cbPortal.open()
     },
