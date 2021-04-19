@@ -1,4 +1,4 @@
-import nuxtPushPlugins from '@dword-design/nuxt-push-plugins'
+import nuxtPushPlugins from 'nuxt-push-plugins'
 import P from 'path'
 
 export default function (moduleOptions) {
