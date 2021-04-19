@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/dword-design/nuxt-chargebee/compare/v1.0.6...v1.0.7) (2021-04-19)
+
+
+### Bug Fixes
+
+* fix deprecated dependency ([#17](https://github.com/dword-design/nuxt-chargebee/issues/17)) ([a97fec7](https://github.com/dword-design/nuxt-chargebee/commit/a97fec797eb28cbfbce21a4428d1223437197172))
+
 ## [1.0.6](https://github.com/dword-design/nuxt-chargebee/compare/v1.0.5...v1.0.6) (2021-04-12)
 
 
