@@ -2,15 +2,7 @@
   "name": "nuxt-chargebee",
   "version": "1.0.7",
   "description": "Chargebee module for Nuxt.js that allows to checkout and open the self-service portal inside a Nuxt.js app.",
-  "keywords": [
-    "payment",
-    "pay",
-    "bill",
-    "billing",
-    "subscribe",
-    "subscription",
-    "merchant"
-  ],
+  "keywords": [],
   "repository": "dword-design/nuxt-chargebee",
   "funding": "https://www.buymeacoffee.com/dword",
   "license": "MIT",
@@ -36,5 +28,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "homepage": ""
 }
