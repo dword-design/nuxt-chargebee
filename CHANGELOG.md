@@ -1,3 +1,19 @@
+# [2.0.0](https://github.com/dword-design/nuxt-chargebee/compare/v1.0.7...v2.0.0) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v8 ([#21](https://github.com/dword-design/nuxt-chargebee/issues/21)) ([7de4119](https://github.com/dword-design/nuxt-chargebee/commit/7de4119bd9852e3678727b2140dacbe8a6b0e774))
+
+
+### BREAKING CHANGES
+
+* require Node.js >= 12
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+Co-authored-by: Sebastian Landwehr <info@dword-design.de>
+Co-authored-by: GitHub Actions <actions@github.com>
+
 ## [1.0.7](https://github.com/dword-design/nuxt-chargebee/compare/v1.0.6...v1.0.7) (2021-04-19)
 
 
