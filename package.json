@@ -1,6 +1,6 @@
 {
   "name": "nuxt-chargebee",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Chargebee module for Nuxt.js that allows to checkout and open the self-service portal inside a Nuxt.js app.",
   "keywords": [
     "payment",

@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/dword-design/nuxt-chargebee/compare/v2.0.0...v2.0.1) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency nuxt-push-plugins to v2 ([#22](https://github.com/dword-design/nuxt-chargebee/issues/22)) ([0b96944](https://github.com/dword-design/nuxt-chargebee/commit/0b96944b516f73e36eb6909e1603e88a5412f5b8))
+
 # [2.0.0](https://github.com/dword-design/nuxt-chargebee/compare/v1.0.7...v2.0.0) (2021-05-03)
 
 
