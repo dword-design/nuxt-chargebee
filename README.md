@@ -3,7 +3,7 @@
 <!-- /TITLE -->
 
 <!-- BADGES/ -->
-  <p>
+<p>
     <a href="https://npmjs.org/package/nuxt-chargebee">
       <img
         src="https://img.shields.io/npm/v/nuxt-chargebee.svg"
