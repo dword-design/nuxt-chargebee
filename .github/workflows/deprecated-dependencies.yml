@@ -7,7 +7,7 @@ jobs:
           lfs: true
       - continue-on-error: true
         id: check-deprecated-js-deps
-        uses: tinovyatkin/action-check-deprecated-js-deps@v1
+        uses: tinovyatkin/action-check-deprecated-js-deps@v2
       - env:
           DEPRECATED: ${{ steps.check-deprecated-js-deps.outputs.deprecated }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
